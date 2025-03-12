@@ -5,7 +5,7 @@ import cv2
 import numpy as np
 
 def load_image():
-    image_path = "D:\Koral\koral6.png"  # Fixed image path
+    image_path = "koral6.png"  # Fixed image path
     image = cv2.imread(image_path)
     if image is None:
         st.error("Error: Image file not found! Check the file path.")
